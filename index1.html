@@ -1,48 +1,44 @@
 <!DOCTYPE html>
-<html>
-	<head> 
-	<link href="main.css" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TTT</title>
+    <link rel="stylesheet" href="main2.css" />
+  </head>
+  <body>
+    <section>
+      <div class="board">
+        <div class="topNav">
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="mainBrd">
+          <div class="stag">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
 
-		<title>OXO</title>
-	<head>
-	<body>
-		
-		
-		
-		<div class="mainHolder">
-		
-		<div class="navBar">
-			<div class="navOpt" id="navOpt1">N</div>
-			<div class="navOpt" id="navOpt2">r</div>
-			<div class="navOpt" id="navOpt3">Q</div>
-		</div>
-		<div class="navigate">
-			<br><div class="gameOpt">2P Local</div><br><br>
-			<div class="gameOpt">2p Online</div><br><br>
-			<div class="gameOpt">vs Machine</div><br><br>
-			<hr>
-		</div>
-		<div class="board">
-			<div class="playPoint" id="plpt1"><input type="button" value="" id="pt1" onclick="desisde(clpt1,0,0)"></div>
-			<div class="playPoint" id="plpt2"><input type="button" value="" id="pt1" onclick="desisde(clpt2,0,1)"></div>
-			<div class="playPoint" id="plpt3"><input type="button" value="" id="pt1" onclick="desisde(clpt3,0,2)"></div><br>
-			<div class="playPoint" id="plpt4"><input type="button" value="" id="pt1" onclick="desisde(clpt4,1,0)"></div>
-			<div class="playPoint" id="plpt5"><input type="button" value="" id="pt1" onclick="desisde(clpt5,1,1)"></div>
-			<div class="playPoint" id="plpt6"><input type="button" value="" id="pt1" onclick="desisde(clpt6,1,2)"></div><br>
-			<div class="playPoint" id="plpt7"><input type="button" value="" id="pt1" onclick="desisde(clpt7,2,0)"></div>
-			<div class="playPoint" id="plpt8"><input type="button" value="" id="pt1" onclick="desisde(clpt8,2,1)"></div>
-			<div class="playPoint" id="plpt9"><input type="button" value="" id="pt1" onclick="desisde(clpt9,2,2)"></div><br>
-		</div>
-		<div class="stateBoard" id="stateBoard1">
-			<div class="stateShow">The winner is :<br><span id="winnName"></span></div>
-		</div>
-		<div class="stateBoard" id="stateBoard2">
-			<div class="stateShow">GAME OVER<br>No Winner</div>
-		</div>
-		</div>
-		<hr>
-		<hr>
-		<script src="game.js">	
-		</script>	
-	</body>
+          <div class="stag">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+
+          <div class="stag">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+        </div>
+        <div class="plyName">
+          <p class="ply" id="crntName">player_1</p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script type="text/javascript" src="game1.js"> </script>
 </html>
