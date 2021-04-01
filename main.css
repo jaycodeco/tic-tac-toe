@@ -1,0 +1,114 @@
+.mainHolder{
+	background-color:blue;
+	width:150px;
+	height:210px;
+	position:absolute;
+	top:100px;
+	left:500px;
+}
+.navBar{
+	background-color:#333;
+	color: #FFF;
+	width:150px;
+	height:30px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	margin:0px;
+	border: 1px solid black;
+}
+.navOpt{
+	background-color:#111;
+	width:20px;
+	height:20px;
+	border: 1px solid black;
+	text-align: center;
+	position: absolute;
+	top: 5px;
+}
+#navOpt1{left:5px;}
+#navOpt2{left:30px;}
+#navOpt3{right:5px;}
+.navigate{
+	background-color:#777;
+	color:#333;
+	width:150px;
+	height:210px;
+	border: 1px solid black;			
+	position: absolute;
+	display:block;
+	top:0px;
+	left:0px;
+	z-index:-100;
+}
+.gameOpt{
+	background-color:#555;
+	width: 100px;
+	height:20px;
+	text-align:center;
+	position:absolute;
+	left: 25px;
+	border-radius:5px;
+}
+.board{
+	background-color:none;
+	height:150px;
+	width:150px;
+	position: absolute;
+	top:30px;
+	left:0px;
+	display:block;
+	margin:0px;
+}
+.playPoint{
+	width:50px;
+	height:50px;
+	background-color:#555;
+	border: 1px solid black;
+	position:absolute;
+	text-align:center;
+	font-size:40px;
+	color:#FFF;
+	z-index:0;
+}
+input{
+	width:50px;
+	height:50px;
+	background-color:rgba(25,145,89,0);
+	border: none;
+}
+#plpt1{top: 0px; left:  0px;}
+#plpt2{top: 50px;left:  0px;}
+#plpt3{top:100px;left:  0px;}
+#plpt4{top: 0px; left: 50px;}
+#plpt5{top: 50px;left: 50px;}
+#plpt6{top:100px;left: 50px;}
+#plpt7{top: 0px; left:100px;}
+#plpt8{top: 50px;left:100px;}
+#plpt9{top:100px;left:100px;}
+			
+.stateBoard{
+	background-color: rgba(25,25,25,0.5);
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	top: 30px;
+	left:0px;
+	border: 1px solid black;
+	z-index:25;
+	display:none;
+}
+.stateShow{
+	background-color: black;
+	color: white;
+	text-align:center;
+	width: 100%;
+	position: absolute;
+	top: 60px;
+}
+hr{
+	background-color:#000;
+	height:3px;
+	border:none;
+	width: 90%;
+}

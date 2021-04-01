@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #a2c8ff;
+    display: flex;
+    align-items: center;
+    /*align-content: center;*/
+    justify-content: center;
+}
+
+.topNav{
+    width: 100%;
+    background: cornsilk;
+    height: 45px;
+}
+.board{
+    align-self: center;
+    width: 210px;
+    aspect-ratio: 1/1.5;
+    background: #222;
+    display: block;
+}
+
+.mainBrd{
+    width: 100%;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.cell{
+    width: 60px;
+    height: 70px;
+    background: rgb(195, 197, 192);
+    border: 1px solid black;
+    font-size: 60px;
+    text-align: center;
+    /* position: absolute; */
+}
+
+.plyName{
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    background: crimson;
+    text-align: center;
+    font-size: 25px;
+    /* position: relative; */
+}
